@@ -1,10 +1,9 @@
  .nav ul{
     display: flex;
-    gap: 20px;
+    gap: 50px;
     list-style: none;
-    margin-left: 40%;
-    justify-content: center;
 }
+
 .luffy{
     margin-left: 483px;
     
@@ -12,11 +11,16 @@
 .div1{
     display: flex;
     gap: 5px;
-}
-.header{
-    background-color: white;
-    border-radius: 10px;
-    position: fixed;
+    justify-content: space-around;
+    padding: 20px 200px;
+    margin-left: 414px;
+} 
+a{
+    border: none;
+    padding: 2px;
+    margin-left: 15px;
+    color: black;
+    text-decoration: none;
 }
 #section{
 display: flex;
@@ -27,6 +31,9 @@ margin-top: 20%;
 }
 .div2{
     display: flex;
+    padding: 12px;
+    border-radius: 5px;
+
 }
 .divsect2{
     display: flex;
@@ -35,13 +42,16 @@ margin-top: 20%;
 }
 body{
     background-color: rgb(238, 231, 221);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
 }
-.img{
-    border-radius: 10px;
-    margin-left: 50%;
-}
-.img2{
-    margin-left: 10%;
+.img2 img{
+margin-top: 20px;
+border-radius: 0%;
+height: 410px;
+margin-left: 800px;
+margin-top: -50px;
+width: 525px;
 
 }
 .machine{
@@ -127,4 +137,18 @@ body{
     display: flex;
     gap: 100px;
     align-items: center;
+} 
+.div20{
+    padding: 15px 25px;
+    background-color: rgb(255, 0, 0);
+    border:none; 
+    border-radius: 8px;
+}
+
+.div21{
+   padding: 15px 25px;
+   border-radius: 8px; 
+   background-color: rgb(255, 255, 255); 
+   border: 1ps solid red;
+  
 }
